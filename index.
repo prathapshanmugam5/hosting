@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Practice</title>
+</head>
+<body>
+
+
+<h1>This is a sample website </h1>
+
+
+    <div id="vicky">
+        Lorem ipsum dolor sit amet.
+    </div>
+    <div id="vicky">
+       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, rerum!
+    </div>
+    <div class="one">
+       Lorem ipsum dolor sit amet. 
+    </div>
+
+
+    <script>
+     /*   alert("Vicky");
+        confirm("Rajan");
+        document.write("vijay"); */
+
+        console.log("kannan");
+
+       
+        document.getElementById("vicky").innerHTML="varathan"
+        document.getElementsByTagName("div")[1].innerHTML="Roja"
+        document.getElementsByClassName("one").innerHTML="hunder"
+        console.log( document.getElementById("vicky").innerHTML);
+
+    </script>
+
+    
+</body>
+</html>
